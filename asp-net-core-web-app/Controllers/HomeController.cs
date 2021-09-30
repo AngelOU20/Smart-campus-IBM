@@ -28,6 +28,11 @@ namespace asp_net_core_web_app.Controllers
             return View();
         }
 
+        public IActionResult Watson()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
